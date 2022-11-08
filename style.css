@@ -138,3 +138,18 @@ a {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
 }
+
+.msg_sound_only,
+.sound_only {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 1px !important;
+    height: 1px !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    overflow: hidden;
+}
