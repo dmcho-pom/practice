@@ -103,6 +103,10 @@ a {
     padding: 10px 0 10px 0;
 }
 
+#ft {
+    background: #222;
+}
+
 .ft_wr {
     background: #1f262d;
     color: #555;
