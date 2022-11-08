@@ -25,11 +25,14 @@ h1 {
     width: 100%;
 }
 
+
+/* 
 @media(max-width:600px) {
     img {
         display: none;
     }
 }
+*/
 
 .hd1 {
     margin: 0;
