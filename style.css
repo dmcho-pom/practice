@@ -1,4 +1,4 @@
-#hd_main{
+#hd_main {
     background: #ffffff;
     width: 100%;
     z-index: 1999;
@@ -6,12 +6,12 @@
     position: relative;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-.hd_main{
+.hd_main {
     position: fixed;
     width: 100%;
 }
@@ -22,11 +22,12 @@ h1 {
     font-size: 40px;
     text-align: center;
     color: black;
-    width:100%;
+    width: 100%;
 }
+
 @media(max-width:600px) {
-    img{
-        display:none;
+    img {
+        display: none;
     }
 }
 
@@ -38,10 +39,14 @@ h1 {
     position: relative;
 }
 
-ul, li, dl, dt, dd{
+ul,
+li,
+dl,
+dt,
+dd {
     padding: 0;
     margin: 0;
-    list-style:none;
+    list-style: none;
 }
 
 #gnb {
@@ -50,8 +55,8 @@ ul, li, dl, dt, dd{
     text-align: center;
 }
 
-#gnb_1dul{
-    margin:0;
+#gnb_1dul {
+    margin: 0;
     text-align: center;
 }
 
@@ -59,7 +64,7 @@ a {
     text-decoration: none;
 }
 
-.gnb_1dli{
+.gnb_1dli {
     position: relative;
     display: inline-block;
     width: 20%;
@@ -67,7 +72,8 @@ a {
     border-bottom: 1px solid blue;
     background-color: aqua;
 }
-.gnb_1da{
+
+.gnb_1da {
     color: #000;
     line-height: 60px;
     font-size: 18px;
@@ -78,7 +84,6 @@ a {
     position: absolute;
     width: 100%;
     background-color: orange;
-
 }
 
 .gnb_2da {
@@ -92,10 +97,15 @@ a {
     display: none;
 }
 
-.gnb_1dli:hover .gnb_2da{
+.gnb_1dli:hover .gnb_2da {
     display: block;
     position: relative;
     padding: 10px 0 10px 0;
 }
 
-
+.ft_wr {
+    background: #1f262d;
+    color: #555;
+    text-align: center;
+    padding: 40px 20px;
+}
