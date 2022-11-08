@@ -83,13 +83,13 @@ a {
 .gnb_2dul {
     position: absolute;
     width: 100%;
-    background-color: orange;
+    background-color: pink;
 }
 
 .gnb_2da {
     color: #555;
-    padding: 10px 20px;
-    font-weight: middle;
+    padding: 10px 0 10px 0;
+    font-weight: bold;
     white-space: nowrap;
     font-size: 12px;
     line-height: 11px;
