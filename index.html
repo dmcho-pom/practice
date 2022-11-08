@@ -87,17 +87,18 @@
 </body>
 <footer>
     <div id="ft">
-        <div class="ft_wr">
-            <div class="ft_copy">
-                Copyright ©
-                <b>2022</b> All right reserved
-            </div>
+        <div class="ft_copy">
+            Copyright ©
+            <b>2022</b> All right reserved
         </div>
     </div>
-    <button type="button" id="top_btn" class="show">
-        <i class="fa fa-arrow-up" aria-hidden="true"></i>
-        <span class="sound_only">상단으로</span>
-    </button>
+    <input class="goupbnt" type="button" value="Top" onclick="clickme()">
+    <script>
+        function clickme() {
+            window.scrollTo(0, 0);
+        }
+    </script>
+
 </footer>
 
 </html>

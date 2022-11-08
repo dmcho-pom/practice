@@ -114,42 +114,13 @@ a {
     padding: 40px 20px;
 }
 
-#top_btn.show {
-    opacity: 1;
-}
-
-#top_btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+.goupbtn {
+    top: 90%;
+    left: 90%;
     width: 50px;
     height: 50px;
-    background: #121418;
-    border: 0;
-    z-index: 999;
-    color: #fff;
-    transition: opacity 0.2s ease-out;
-}
-
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-}
-
-.msg_sound_only,
-.sound_only {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 1px !important;
-    height: 1px !important;
-    font-size: 0 !important;
-    line-height: 0 !important;
-    overflow: hidden;
+    border-radius: 80%;
+    background-color: #ffffff;
+    border: red 3px solid;
+    position: fixed;
 }
