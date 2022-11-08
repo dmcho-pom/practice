@@ -97,7 +97,11 @@
     <input class="goupbnt" type="button" value="Top" onclick="clickme()">
     <script>
         function clickme() {
-            window.scrollTo(0, 0);
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
         }
     </script>
 
