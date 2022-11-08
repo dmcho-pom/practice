@@ -122,6 +122,7 @@ a {
 }
 
 .goupbtn {
+    color: #000;
     top: 90%;
     left: 90%;
     width: 50px;
@@ -134,6 +135,7 @@ a {
 }
 
 .goupbtn:hover {
+    color: #ffffff;
     top: 90%;
     left: 90%;
     width: 50px;
