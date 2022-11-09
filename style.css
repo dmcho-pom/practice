@@ -54,14 +54,14 @@ dd {
     list-style: none;
 }
 
-#main_gbn {
+.main_gbn {
     margin: 0 auto;
     max-width: 100%;
     border-top: 0px solid #eee;
     position: relative;
 }
 
-.main_gnb {
+.main_gnb1 {
     max-width: 1400px;
     margin: 0 auto;
     position: relative;
