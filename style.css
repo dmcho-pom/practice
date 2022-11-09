@@ -9,7 +9,7 @@ body {
     height: 10%;
     z-index: 1999;
     border-bottom: 1px solid #ddd;
-    position: fixed;
+    position: sticky;
 }
 
 .h1 {
