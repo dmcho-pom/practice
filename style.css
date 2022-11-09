@@ -1,20 +1,15 @@
-#hd_main {
-    background: #ffffff;
-    width: 100%;
-    height: 10%;
-    z-index: 1999;
-    border-bottom: 1px solid #ddd;
-    position: relative;
-}
-
 body {
     margin: 0;
     padding: 0;
 }
 
 .hd_main {
-    position: fixed;
+    background: #ffffff;
     width: 100%;
+    height: 10%;
+    z-index: 1999;
+    border-bottom: 1px solid #ddd;
+    position: relative;
 }
 
 .h1 {
