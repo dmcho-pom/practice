@@ -60,7 +60,7 @@ dd {
 
 #gnb {
     display: block;
-    width: 100%;
+    max-width: 1400px;
     text-align: center;
 }
 
@@ -79,8 +79,6 @@ a {
     width: 20%;
     float: left;
     border-bottom: 1px solid #ddd;
-    left: 12%;
-    right: 12%;
     background-color: #ffffff;
 }
 
