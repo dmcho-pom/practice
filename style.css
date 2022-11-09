@@ -24,6 +24,7 @@ body {
     text-align: center;
     width: 100%;
     vertical-align: center;
+    position: relative;
 }
 
 #logo {
@@ -58,6 +59,7 @@ dd {
     margin: 0 auto;
     max-width: 100%;
     border-top: 0px solid #eee;
+    position: relative;
 }
 
 #main_gnb .main_gnb {
