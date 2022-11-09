@@ -149,6 +149,9 @@ a {
     z-index: 2;
 }
 
+
+/* 테이블 값 시작 */
+
 table.type07 {
     border-collapse: collapse;
     text-align: left;
@@ -185,3 +188,6 @@ table.type07 td {
     vertical-align: top;
     border-bottom: 1px solid #ccc;
 }
+
+
+/* 테이블 값 끝 */
