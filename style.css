@@ -26,6 +26,7 @@ body {
     font-weight: 900;
     text-align: center;
     width: 100%;
+    vertical-align: center;
 }
 
 .logo img {
@@ -33,7 +34,7 @@ body {
     position: absolute;
     width: 145.5px;
     height: 58px;
-    top: 30%;
+    top: 20%;
     left: 8%;
     z-index: 2000;
 }
