@@ -1,0 +1,187 @@
+#hd_main {
+    background: #ffffff;
+    width: 100%;
+    z-index: 1999;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hd_main {
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 32px;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+
+
+/* 
+@media(max-width:600px) {
+    img {
+        display: none;
+    }
+}
+*/
+
+.hd1 {
+    margin: 0;
+    background-color: gray;
+    width: 100%;
+    border-bottom: 1px solid red;
+    position: relative;
+}
+
+ul,
+li,
+dl,
+dt,
+dd {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#gnb {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#gnb_1dul {
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gnb_1dli {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    float: left;
+    border-bottom: 1px solid blue;
+    background-color: aqua;
+}
+
+.gnb_1da {
+    color: #000;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.gnb_2dul {
+    position: absolute;
+    width: 100%;
+    background-color: pink;
+}
+
+.gnb_2da {
+    color: #555;
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: center;
+    display: none;
+}
+
+.gnb_1dli:hover .gnb_2da {
+    display: block;
+    position: relative;
+    padding: 10px 0 10px 0;
+}
+
+#ft {
+    background: #222;
+}
+
+.ft_wr {
+    background: #1f262d;
+    color: #555;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#ft_copy {
+    list-style: none;
+    display: inline-block;
+    border-left: 1px solid #555;
+    margin-bottom: 35px;
+}
+
+.goupbtn {
+    color: #000;
+    top: 90%;
+    left: 90%;
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    background-color: #ffffff;
+    border: #000 3px solid;
+    position: fixed;
+    z-index: 2;
+}
+
+.goupbtn:hover {
+    color: #ffffff;
+    top: 90%;
+    left: 90%;
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    background-color: #000;
+    border: #ffffff 3px solid;
+    position: fixed;
+    z-index: 2;
+}
+
+table.type07 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    margin: 20px 10px;
+}
+
+table.type07 thead {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background: #e7708d;
+}
+
+table.type07 thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+}
+
+table.type07 tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #fcf1f4;
+}
+
+table.type07 td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
