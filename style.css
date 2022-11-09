@@ -79,6 +79,8 @@ a {
     width: 20%;
     float: left;
     border-bottom: 1px solid #ddd;
+    left: 12%;
+    right: 12%;
     background-color: #ffffff;
 }
 
