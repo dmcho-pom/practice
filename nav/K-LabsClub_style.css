@@ -161,6 +161,7 @@ table.type07 {
     line-height: 1.5;
     border: 1px solid #ccc;
     margin: 20px 10px;
+    top: 120px;
 }
 
 table.type07 thead {
