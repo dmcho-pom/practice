@@ -31,9 +31,9 @@ body {
 .logo {
     display: block;
     position: absolute;
-    width: 291px;
-    height: 116px;
-    top: 50%;
+    width: 218.25px;
+    height: 87px;
+    top: 30%;
     left: 8%;
     z-index: 2000;
 }
