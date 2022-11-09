@@ -36,9 +36,9 @@ h1 {
 
 .hd1 {
     margin: 0;
-    background-color: gray;
+    background-color: #ffffff;
     width: 100%;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #ddd;
     position: relative;
 }
 
@@ -72,8 +72,8 @@ a {
     display: inline-block;
     width: 20%;
     float: left;
-    border-bottom: 1px solid blue;
-    background-color: aqua;
+    border-bottom: 1px solid #ddd;
+    background-color: #ffffff;
 }
 
 .gnb_1da {
