@@ -30,6 +30,7 @@ h1 {
 
 .logo {
     z-index: 2000;
+    align-items: left;
 }
 
 
