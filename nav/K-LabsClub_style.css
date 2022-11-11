@@ -171,17 +171,14 @@ a {
 
 /* 테이블 값 시작 */
 
-table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 table.type07 {
     border-collapse: collapse;
     text-align: left;
     line-height: 1.5;
     border: 1px solid #ccc;
     margin: 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
     top: 120px;
 }
 
