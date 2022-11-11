@@ -191,6 +191,7 @@ table.type07 {
     margin-left: auto;
     margin-right: auto;
     top: 120px;
+    width: 80%;
 }
 
 table.type07 thead {
@@ -200,11 +201,12 @@ table.type07 thead {
 }
 
 table.type07 thead th {
-    padding: 10px;
+    padding: 15px 0;
     font-weight: bold;
     vertical-align: top;
     color: #fff;
     text-align: center;
+    letter-spacing: -0.1em;
 }
 
 table.type07 tbody th {
