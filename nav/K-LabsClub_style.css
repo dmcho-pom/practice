@@ -168,6 +168,14 @@ a {
     position: relative;
 }
 
+h2 {
+    left: 20%;
+}
+
+.h3_t {
+    left: 20%;
+}
+
 
 /* 테이블 값 시작 */
 
@@ -210,6 +218,7 @@ table.type07 td {
     padding: 10px;
     vertical-align: top;
     border-bottom: 1px solid #ccc;
+    text-align: center;
 }
 
 
