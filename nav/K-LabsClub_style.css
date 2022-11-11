@@ -230,9 +230,9 @@ table.type07 td {
     padding: 10px;
     vertical-align: top;
     border-bottom: 1px solid #ccc;
-    text-align: center;
     border-right: 1px solid #ccc;
     border-left: 1px solid #ccc;
+    text-align: center;
 }
 
 
