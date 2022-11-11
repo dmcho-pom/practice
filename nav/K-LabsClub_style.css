@@ -171,6 +171,11 @@ a {
 
 /* 테이블 값 시작 */
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 table.type07 {
     border-collapse: collapse;
     text-align: left;
@@ -183,7 +188,7 @@ table.type07 {
 table.type07 thead {
     border-right: 1px solid #ccc;
     border-left: 1px solid #ccc;
-    background: #e7708d;
+    background: #2C9A49;
 }
 
 table.type07 thead th {
@@ -199,7 +204,7 @@ table.type07 tbody th {
     font-weight: bold;
     vertical-align: top;
     border-bottom: 1px solid #ccc;
-    background: #fcf1f4;
+    background: #6CB980;
 }
 
 table.type07 td {
