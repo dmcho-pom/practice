@@ -105,7 +105,8 @@ a {
     position: absolute;
     width: 100%;
     background-color: #ffffff;
-    border-radius: 15px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
 
 .gnb_2da {
