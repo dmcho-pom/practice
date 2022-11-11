@@ -203,6 +203,7 @@ table.type07 {
 table.type07 thead {
     border-right: 1px solid #ccc;
     border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
     background: #2C9A49;
 }
 
