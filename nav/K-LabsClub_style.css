@@ -177,9 +177,11 @@ a {
     margin: 0;
     padding: 0;
     border: 0;
+    width: 1400px;
+    left: 10%;
 }
 
-h2 .h3_t {
+h2 h3 .h3_t {
     position: relative;
     left: 10%;
 }
