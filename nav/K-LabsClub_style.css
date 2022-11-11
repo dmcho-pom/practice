@@ -196,7 +196,7 @@ table.type07 thead th {
 }
 
 table.type07 tbody th {
-    width: 150px;
+    width: auto;
     padding: 10px;
     font-weight: bold;
     vertical-align: top;
@@ -205,7 +205,7 @@ table.type07 tbody th {
 }
 
 table.type07 td {
-    width: 350px;
+    width: auto;
     padding: 10px;
     vertical-align: top;
     border-bottom: 1px solid #ccc;
