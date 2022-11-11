@@ -173,7 +173,8 @@ a {
 }
 
 .subtext {
-    left: 20%;
+    position: relative;
+    left: 10%;
 }
 
 
