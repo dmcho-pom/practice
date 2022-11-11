@@ -174,11 +174,14 @@ a {
 
 .subtext {
     position: relative;
-    left: 10%;
-    right: 10%;
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+h2 .h3_t {
+    position: relative;
+    left: 10%;
 }
 
 
