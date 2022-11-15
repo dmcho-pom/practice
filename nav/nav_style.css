@@ -29,6 +29,7 @@ body {
         width: 100%;
         vertical-align: center;
         position: relative;
+        display: none;
     }
 }
 
