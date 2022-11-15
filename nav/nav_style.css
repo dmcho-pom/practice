@@ -17,7 +17,7 @@ body {
     top: 0;
 }
 
-@media (max-width:800px) {
+@media (max-width:600px) {
     .h1 {
         margin: 0;
         padding: 10px 0;
@@ -29,21 +29,6 @@ body {
         width: 100%;
         vertical-align: center;
         position: relative;
-    }
-    .gnb_1da {
-        color: #1F262D;
-        line-height: 60px;
-        font-size: 9px;
-        font-weight: bold;
-    }
-    #logo {
-        display: block;
-        position: absolute;
-        width: 48.5px;
-        height: 19.33px;
-        top: 20%;
-        left: 20%;
-        z-index: 2000;
     }
 }
 
@@ -58,6 +43,18 @@ body {
     width: 100%;
     vertical-align: center;
     position: relative;
+}
+
+@media (max-width:600px) {
+    #logo {
+        display: block;
+        position: absolute;
+        width: 48.5px;
+        height: 19.33px;
+        top: 20%;
+        left: 20%;
+        z-index: 2000;
+    }
 }
 
 #logo {
@@ -122,6 +119,15 @@ a {
     float: left;
     border-bottom: 1px solid #ddd;
     background-color: #ffffff;
+}
+
+@media (max-width:600px) {
+    .gnb_1da {
+        color: #1F262D;
+        line-height: 60px;
+        font-size: 9px;
+        font-weight: bold;
+    }
 }
 
 .gnb_1da {
