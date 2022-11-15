@@ -36,6 +36,15 @@ body {
         font-size: 9px;
         font-weight: bold;
     }
+    #logo {
+        display: block;
+        position: absolute;
+        width: 48.5px;
+        height: 19.33px;
+        top: 20%;
+        left: 20%;
+        z-index: 2000;
+    }
 }
 
 .h1 {
