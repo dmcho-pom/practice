@@ -242,13 +242,22 @@ table.type07 td {
     .h1 {
         font-size: 16px;
     }
+    .hd_main {
+        background: #ffffff;
+        width: 100%;
+        height: 102px;
+        z-index: 1999;
+        border-bottom: 0.5px solid #ddd;
+        position: sticky;
+        top: 0;
+    }
     #logo {
         display: block;
         position: absolute;
         width: 48.5px;
         height: 19.33px;
         top: 20%;
-        left: 20%;
+        left: 10%;
         z-index: 2000;
     }
     .gnb_1da {
@@ -256,6 +265,15 @@ table.type07 td {
         line-height: 60px;
         font-size: 9px;
         font-weight: bold;
+    }
+    .gnb_2da {
+        color: #1F262D;
+        padding: 10px 0 10px 0;
+        font-weight: bold;
+        font-size: 6px;
+        line-height: 11px;
+        text-align: center;
+        display: none;
     }
     .goupbtn {
         color: #000;
