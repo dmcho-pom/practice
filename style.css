@@ -255,7 +255,7 @@ table.type07 td {
     .gnb_1da {
         color: #1F262D;
         line-height: 60px;
-        font-size: 9px;
+        font-size: 12px;
         font-weight: bold;
     }
     .gnb_2da {
@@ -270,7 +270,7 @@ table.type07 td {
     .goupbtn {
         content: url(/practice/img/arrow1.png);
         top: 90%;
-        left: 90%;
+        left: 85%;
         position: fixed;
         z-index: 2;
         width: 50px;
@@ -279,7 +279,7 @@ table.type07 td {
     .goupbtn:hover {
         content: url(/practice/img/arrow2.png);
         top: 90%;
-        left: 90%;
+        left: 85%;
         position: fixed;
         z-index: 2;
         width: 50px;
