@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    /*font-size: 0.813em;*/
+    font-size: 0.813em;
     font-family: 'Noto Sans KR', AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif;
     letter-spacing: -1px;
     color: #1F262D;
@@ -28,25 +28,6 @@ body {
     width: 100%;
     vertical-align: center;
     position: relative;
-}
-
-@media (max-width:600px) {
-    .h1 {
-        font-size: 16px;
-    }
-}
-
-@media (max-width:600px) {
-    #logo {
-        display: block;
-        position: absolute;
-        width: 48.5px;
-        height: 19.33px;
-        top: 20%;
-        left: 20%;
-        z-index: 2000;
-        display: none;
-    }
 }
 
 #logo {
@@ -113,15 +94,6 @@ a {
     background-color: #ffffff;
 }
 
-@media (max-width:600px) {
-    .gnb_1da {
-        color: #1F262D;
-        line-height: 60px;
-        font-size: 9px;
-        font-weight: bold;
-    }
-}
-
 .gnb_1da {
     color: #1F262D;
     line-height: 60px;
@@ -170,21 +142,6 @@ a {
     margin-bottom: 35px;
 }
 
-@media (max-width:600px) {
-    .goupbtn {
-        color: #000;
-        top: 90%;
-        left: 90%;
-        width: 30px;
-        height: 30px;
-        border-radius: 80%;
-        background-color: #ffffff;
-        border: #000 3px solid;
-        position: fixed;
-        z-index: 2;
-    }
-}
-
 .goupbtn {
     color: #000;
     top: 90%;
@@ -196,21 +153,6 @@ a {
     border: #000 3px solid;
     position: fixed;
     z-index: 2;
-}
-
-@media (max-width:600px) {
-    .goupbtn:hover {
-        color: #ffffff;
-        top: 90%;
-        left: 90%;
-        width: 30px;
-        height: 30px;
-        border-radius: 80%;
-        background-color: #000;
-        border: #ffffff 3px solid;
-        position: fixed;
-        z-index: 2;
-    }
 }
 
 .goupbtn:hover {
@@ -295,3 +237,48 @@ table.type07 td {
 
 
 /* 테이블 값 끝 */
+
+@media (max-width:800px) {
+    .h1 {
+        font-size: 16px;
+    }
+    #logo {
+        display: block;
+        position: absolute;
+        width: 48.5px;
+        height: 19.33px;
+        top: 20%;
+        left: 20%;
+        z-index: 2000;
+    }
+    .gnb_1da {
+        color: #1F262D;
+        line-height: 60px;
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .goupbtn {
+        color: #000;
+        top: 90%;
+        left: 90%;
+        width: 30px;
+        height: 30px;
+        border-radius: 80%;
+        background-color: #ffffff;
+        border: #000 3px solid;
+        position: fixed;
+        z-index: 2;
+    }
+    .goupbtn:hover {
+        color: #ffffff;
+        top: 90%;
+        left: 90%;
+        width: 30px;
+        height: 30px;
+        border-radius: 80%;
+        background-color: #000;
+        border: #ffffff 3px solid;
+        position: fixed;
+        z-index: 2;
+    }
+}

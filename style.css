@@ -17,21 +17,6 @@ body {
     top: 0;
 }
 
-@media (max-width:600px) {
-    .h1 {
-        margin: 0;
-        padding: 10px 0;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-        word-spacing: 3px;
-        font-size: 16px;
-        font-weight: 900;
-        text-align: center;
-        width: 100%;
-        vertical-align: center;
-        position: relative;
-    }
-}
-
 .h1 {
     margin: 0;
     padding: 10px 0;
@@ -43,18 +28,6 @@ body {
     width: 100%;
     vertical-align: center;
     position: relative;
-}
-
-@media (max-width:600px) {
-    #logo {
-        display: block;
-        position: absolute;
-        width: 48.5px;
-        height: 19.33px;
-        top: 20%;
-        left: 20%;
-        z-index: 2000;
-    }
 }
 
 #logo {
@@ -121,15 +94,6 @@ a {
     background-color: #ffffff;
 }
 
-@media (max-width:600px) {
-    .gnb_1da {
-        color: #1F262D;
-        line-height: 60px;
-        font-size: 9px;
-        font-weight: bold;
-    }
-}
-
 .gnb_1da {
     color: #1F262D;
     line-height: 60px;
@@ -178,21 +142,6 @@ a {
     margin-bottom: 35px;
 }
 
-@media (max-width:600px) {
-    .goupbtn {
-        color: #000;
-        top: 90%;
-        left: 90%;
-        width: 30px;
-        height: 30px;
-        border-radius: 80%;
-        background-color: #ffffff;
-        border: #000 3px solid;
-        position: fixed;
-        z-index: 2;
-    }
-}
-
 .goupbtn {
     color: #000;
     top: 90%;
@@ -204,21 +153,6 @@ a {
     border: #000 3px solid;
     position: fixed;
     z-index: 2;
-}
-
-@media (max-width:600px) {
-    .goupbtn:hover {
-        color: #ffffff;
-        top: 90%;
-        left: 90%;
-        width: 30px;
-        height: 30px;
-        border-radius: 80%;
-        background-color: #000;
-        border: #ffffff 3px solid;
-        position: fixed;
-        z-index: 2;
-    }
 }
 
 .goupbtn:hover {
@@ -250,4 +184,101 @@ a {
 h2 h3 .h3_t {
     position: relative;
     left: 10%;
+}
+
+
+/* 테이블 값 시작 */
+
+table.type07 {
+    border-collapse: collapse;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    margin: 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 120px;
+    width: 80%;
+}
+
+table.type07 thead {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background: #2C9A49;
+}
+
+table.type07 thead th {
+    padding: 15px 0;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -0.1em;
+}
+
+table.type07 tbody th {
+    width: auto;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #6CB980;
+    text-align: center;
+}
+
+table.type07 td {
+    width: auto;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-align: center;
+}
+
+
+/* 테이블 값 끝 */
+
+@media (max-width:800px) {
+    .h1 {
+        font-size: 16px;
+    }
+    #logo {
+        display: block;
+        position: absolute;
+        width: 48.5px;
+        height: 19.33px;
+        top: 20%;
+        left: 20%;
+        z-index: 2000;
+    }
+    .gnb_1da {
+        color: #1F262D;
+        line-height: 60px;
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .goupbtn {
+        color: #000;
+        top: 90%;
+        left: 90%;
+        width: 30px;
+        height: 30px;
+        border-radius: 80%;
+        background-color: #ffffff;
+        border: #000 3px solid;
+        position: fixed;
+        z-index: 2;
+    }
+    .goupbtn:hover {
+        color: #ffffff;
+        top: 90%;
+        left: 90%;
+        width: 30px;
+        height: 30px;
+        border-radius: 80%;
+        background-color: #000;
+        border: #ffffff 3px solid;
+        position: fixed;
+        z-index: 2;
+    }
 }
