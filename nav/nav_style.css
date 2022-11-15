@@ -162,8 +162,8 @@ h2 h3 .h3_t {
 
 .goupbtn {
     content: url(/practice/img/arrow1.png);
-    top: 70%;
-    left: 70%;
+    top: 90%;
+    left: 90%;
     position: fixed;
     z-index: 2;
     width: 50px;
@@ -172,8 +172,8 @@ h2 h3 .h3_t {
 
 .goupbtn:hover {
     content: url(/practice/img/arrow2.png);
-    top: 70%;
-    left: 70%;
+    top: 90%;
+    left: 90%;
     position: fixed;
     z-index: 2;
 }
@@ -269,8 +269,8 @@ table.type07 td {
     }
     .goupbtn {
         content: url(/practice/img/arrow1.png);
-        top: 70%;
-        left: 70%;
+        top: 90%;
+        left: 90%;
         position: fixed;
         z-index: 2;
         width: 50px;
@@ -278,8 +278,8 @@ table.type07 td {
     }
     .goupbtn:hover {
         content: url(/practice/img/arrow2.png);
-        top: 70%;
-        left: 70%;
+        top: 90%;
+        left: 90%;
         position: fixed;
         z-index: 2;
         width: 50px;
