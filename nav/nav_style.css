@@ -178,6 +178,21 @@ a {
     margin-bottom: 35px;
 }
 
+@media (max-width:600px) {
+    .goupbtn {
+        color: #000;
+        top: 90%;
+        left: 90%;
+        width: 30px;
+        height: 30px;
+        border-radius: 80%;
+        background-color: #ffffff;
+        border: #000 3px solid;
+        position: fixed;
+        z-index: 2;
+    }
+}
+
 .goupbtn {
     color: #000;
     top: 90%;
@@ -189,6 +204,21 @@ a {
     border: #000 3px solid;
     position: fixed;
     z-index: 2;
+}
+
+@media (max-width:600px) {
+    .goupbtn:hover {
+        color: #ffffff;
+        top: 90%;
+        left: 90%;
+        width: 30px;
+        height: 30px;
+        border-radius: 80%;
+        background-color: #000;
+        border: #ffffff 3px solid;
+        position: fixed;
+        z-index: 2;
+    }
 }
 
 .goupbtn:hover {
