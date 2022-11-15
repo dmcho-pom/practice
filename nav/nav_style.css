@@ -30,6 +30,12 @@ body {
         vertical-align: center;
         position: relative;
     }
+    .gnb_1da {
+        color: #1F262D;
+        line-height: 60px;
+        font-size: 9px;
+        font-weight: bold;
+    }
 }
 
 .h1 {
