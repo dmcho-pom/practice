@@ -257,6 +257,15 @@ table.type07 td {
         font-size: 9px;
         font-weight: bold;
     }
+    .gnb_2da {
+        color: #1F262D;
+        padding: 10px 0 10px 0;
+        font-weight: bold;
+        font-size: 6px;
+        line-height: 11px;
+        text-align: center;
+        display: none;
+    }
     .goupbtn {
         color: #000;
         top: 90%;
