@@ -124,6 +124,10 @@ a {
     padding: 10px 0 10px 0;
 }
 
+h2 {
+    position: relative;
+}
+
 #ft {
     background: #222;
 }
