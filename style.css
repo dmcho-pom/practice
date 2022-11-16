@@ -124,6 +124,9 @@ a {
     padding: 10px 0 10px 0;
 }
 
+
+/*주요 프로그램*/
+
 .center_container .cp01 h2 {
     background-color: #249798;
     height: 72px;
@@ -138,6 +141,9 @@ a {
     border-bottom: 1px dotted #ccc;
     padding-bottom: 40px;
 }
+
+
+/*주요 프로그램 끝*/
 
 #ft {
     background: #222;
