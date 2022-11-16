@@ -117,7 +117,7 @@ a {
 .h2main_new {
     color: #1F262D;
     text-align: center;
-    font-size: 32px;
+    font-size: 50px;
     margin: 100px 0 100px 0;
 }
 
@@ -218,6 +218,7 @@ a {
 
 .maintext3 img {
     position: relative;
+    display: block;
     margin: auto;
 }
 
