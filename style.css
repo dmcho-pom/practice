@@ -202,7 +202,8 @@ a {
 
 /*주요 프로그램 끝*/
 
-.maintext2 {
+#maintext2 {
+    display: block;
     position: relative;
     margin: 0;
     padding: 0;
