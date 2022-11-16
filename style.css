@@ -169,7 +169,7 @@ h2 {
     padding-left: 30px;
 }
 
-.center_container .cp02 h2 {
+.center_container .cp02 .program_title {
     background-color: #323B6E;
     height: 72px;
     line-height: 72px;
