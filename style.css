@@ -157,6 +157,8 @@ a {
     text-align: center;
     font-size: 21px;
     margin: 0;
+    line-height: normal;
+    padding: 10px 0 10px 0;
 }
 
 .center_banner03 .center_program .cp_wrap {
@@ -173,6 +175,8 @@ a {
     text-align: center;
     font-size: 21px;
     margin: 0;
+    line-height: normal;
+    padding: 10px 0 10px 0;
 }
 
 .center_banner03 .center_program .cp_wrap h3 {
