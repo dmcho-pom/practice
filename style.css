@@ -127,11 +127,14 @@ a {
 
 /*주요 프로그램*/
 
-h2 {
+.h2main_new {
+    color: #0338aa;
     text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
 }
 
-.center_container {
+.center_banner03 .center_container {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0px;
@@ -139,15 +142,15 @@ h2 {
     justify-content: space-between;
 }
 
-.center_container .center_program {
+.center_banner03 .center_program {
     width: 32%;
     border: 1px solid #ddd;
     border-radius: 15px;
     overflow: hidden;
 }
 
-.center_container .cp01 .program_title {
-    background-color: #249798;
+.center_banner03 .cp01 h2 {
+    background-color: #ffc000;
     height: 72px;
     line-height: 72px;
     color: #fff;
@@ -155,22 +158,14 @@ h2 {
     font-size: 21px;
 }
 
-.center_container .center_program .cp_wrap {
+.center_banner03 .center_program .cp_wrap {
     margin: 35px;
     border-bottom: 1px dotted #ccc;
     padding-bottom: 40px;
 }
 
-.center_container .center_program .cp_wrap p {
-    color: #666;
-    font-size: 15px;
-    margin-top: 25px;
-    background: url(../img/p_clock.png)no-repeat 0px center;
-    padding-left: 30px;
-}
-
-.center_container .cp02 .program_title {
-    background-color: #323B6E;
+.center_banner03 .cp02 h2 {
+    background-color: #2034a9;
     height: 72px;
     line-height: 72px;
     color: #fff;
@@ -178,16 +173,10 @@ h2 {
     font-size: 21px;
 }
 
-.center_container .center_program .cp_wrap h3 {
+.center_banner03 .center_program .cp_wrap h3 {
     font-size: 18px;
     color: #000;
     padding-bottom: 30px;
-}
-
-.center_container .center_program .cp_wrap li {
-    background: url(/practice/img/li_dot.png)no-repeat 3px center;
-    padding-left: 20px;
-    font-size: 16px;
 }
 
 
