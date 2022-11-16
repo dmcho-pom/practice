@@ -10,7 +10,7 @@ body {
 .hd_main {
     background: #ffffff;
     width: 100%;
-    height: 123.54px;
+    height: 130.09px;
     z-index: 1999;
     border-bottom: 0.5px solid #ddd;
     position: sticky;
@@ -253,10 +253,7 @@ a {
     padding: 30px 0;
 }
 
-#fr_logo_import .ft_logo_import_container li img {
-    width: 314px;
-    height: 113px;
-}
+#fr_logo_import .ft_logo_import_container li img {}
 
 #ft_logo_import .ft_logo_import_container li:nth-child(1) {
     border-left: 0px;
