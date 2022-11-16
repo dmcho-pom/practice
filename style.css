@@ -161,6 +161,14 @@ h2 {
     padding-bottom: 40px;
 }
 
+.center_container .center_program .cp_wrap p {
+    color: #666;
+    font-size: 15px;
+    margin-top: 25px;
+    background: url(../img/p_clock.png)no-repeat 0px center;
+    padding-left: 30px;
+}
+
 .center_container .cp02 h2 {
     background-color: #323B6E;
     height: 72px;
