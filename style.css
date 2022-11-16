@@ -146,7 +146,7 @@ h2 {
     overflow: hidden;
 }
 
-.center_container .cp01 h2 {
+.center_container .cp01 .program_title {
     background-color: #249798;
     height: 72px;
     line-height: 72px;
