@@ -128,10 +128,10 @@ a {
 /*주요 프로그램*/
 
 .h2main_new {
-    color: #0338aa;
+    color: #1F262D;
     text-align: center;
     font-size: 32px;
-    margin-bottom: 30px;
+    margin: 100px 0 50px 0;
 }
 
 .center_banner03 .center_container {
