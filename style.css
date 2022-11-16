@@ -151,6 +151,18 @@ a {
     font-size: 21px;
 }
 
+.center_container .center_program .cp_wrap h3 {
+    font-size: 18px;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.center_container .center_program .cp_wrap li {
+    background: url(/practice/img/li_dot.png)no-repeat 3px center;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
 
 /*주요 프로그램 끝*/
 
