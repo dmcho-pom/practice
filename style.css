@@ -134,6 +134,17 @@ a {
     margin: 100px 0 100px 0;
 }
 
+.h2main_new02 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.h2main_new02 span {
+    color: #ffc000;
+}
+
 .center_banner03 .center_container {
     max-width: 1400px;
     margin: 0 auto;
@@ -211,8 +222,11 @@ a {
 
 .maintext3 {
     position: relative;
-    margin: 0;
-    padding: 0;
+    overflow: hidden;
+    background: url(/practice/img/BG1.png)no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    padding: 110px 0 130px 0;
 }
 
 #ft {
