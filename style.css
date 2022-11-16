@@ -241,7 +241,7 @@ a {
 
 #ft_logo_import .ft_logo_import_container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #ft_logo_import .ft_logo_import_container li {
@@ -251,6 +251,8 @@ a {
     text-align: center;
     padding: 30px 0;
 }
+
+#fr_logo_import .ft_logo_import_container li img {}
 
 #ft_logo_import .ft_logo_import_container li:nth-child(1) {
     border-left: 0px;
