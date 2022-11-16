@@ -142,6 +142,15 @@ a {
     padding-bottom: 40px;
 }
 
+.center_container .cp02 h2 {
+    background-color: #323B6E;
+    height: 72px;
+    line-height: 72px;
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+}
+
 
 /*주요 프로그램 끝*/
 
