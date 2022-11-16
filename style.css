@@ -172,7 +172,7 @@ a {
 
 .ft_wr {
     background: #1f262d;
-    color: #555;
+    color: #ffffff;
     text-align: center;
     padding: 40px 20px;
 }
@@ -180,7 +180,7 @@ a {
 #ft_copy {
     list-style: none;
     display: inline-block;
-    border-left: 1px solid #555;
+    border-left: 1px solid #ffffff;
     margin-bottom: 35px;
 }
 
