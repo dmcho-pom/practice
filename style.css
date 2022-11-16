@@ -133,7 +133,7 @@ a {
     font-size: 21px;
 }
 
-.center_banner03 .center_program .cp_wrap {
+.center_container .center_program .cp_wrap {
     margin: 35px;
     border-bottom: 1px dotted #ccc;
     padding-bottom: 40px;
