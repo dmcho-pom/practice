@@ -232,6 +232,22 @@ a {
     margin-bottom: 35px;
 }
 
+#ft_logo_import {
+    max-width: 1400px;
+    position: relative;
+    margin: 0 auto 40px auto;
+    overflow: hidden;
+}
+
+#ft_logo_import .ft_logo_import_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ft_logo_import .ft_logo_import_container li:nth-child(1) {
+    border-left: 0px;
+}
+
 .maintext {
     position: relative;
 }
