@@ -254,7 +254,8 @@ a {
 }
 
 #fr_logo_import .ft_logo_import_container li img {
-    width: 100%;
+    width: 314px;
+    height: 113px;
 }
 
 #ft_logo_import .ft_logo_import_container li:nth-child(1) {
