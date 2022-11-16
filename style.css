@@ -208,6 +208,12 @@ a {
     padding: 0;
 }
 
+.maintext3 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
 #ft {
     background: #222;
 }
