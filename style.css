@@ -127,6 +127,10 @@ a {
 
 /*주요 프로그램*/
 
+h2 {
+    text-align: center;
+}
+
 .center_container .center_container {
     max-width: 1400px;
     margin: 0 auto;
