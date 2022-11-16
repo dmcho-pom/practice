@@ -139,6 +139,13 @@ h2 {
     justify-content: space-between;
 }
 
+.center_banner03 .center_program {
+    width: 32%;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
 .center_container .cp01 h2 {
     background-color: #249798;
     height: 72px;
