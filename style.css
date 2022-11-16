@@ -202,6 +202,12 @@ a {
 
 /*주요 프로그램 끝*/
 
+.maintext2 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
 #ft {
     background: #222;
 }
