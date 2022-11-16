@@ -195,7 +195,7 @@ a {
     color: #666;
     font-size: 15px;
     margin-top: 25px;
-    background: url(../img/p_clock.png)no-repeat 0px center;
+    background: url(/practice/img/p_clock.png)no-repeat 0px center;
     padding-left: 30px;
 }
 
