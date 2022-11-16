@@ -17,26 +17,11 @@ body {
     top: 0;
 }
 
-.h1 {
-    margin: 0;
-    padding: 10px 0;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    word-spacing: 3px;
-    font-size: 32px;
-    font-weight: 900;
-    text-align: center;
-    width: 100%;
-    vertical-align: center;
-    position: relative;
-}
-
-#logo {
+.title_logo {
     display: block;
     position: absolute;
-    width: 97px;
-    height: 38.66px;
     top: 20%;
-    left: 20%;
+    align-items: center;
     z-index: 2000;
 }
 
@@ -353,9 +338,6 @@ table.type07 td {
 /* 테이블 값 끝 */
 
 @media (max-width:800px) {
-    .h1 {
-        font-size: 16px;
-    }
     .hd_main {
         background: #ffffff;
         width: 100%;
@@ -365,13 +347,11 @@ table.type07 td {
         position: sticky;
         top: 0;
     }
-    #logo {
+    .title_logo {
         display: block;
         position: absolute;
-        width: 48.5px;
-        height: 19.33px;
         top: 20%;
-        left: 10%;
+        align-items: center;
         z-index: 2000;
     }
     .gnb_1da {
