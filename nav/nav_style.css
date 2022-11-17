@@ -167,7 +167,7 @@ table.type07 thead {
 table.type07 thead th {
     padding: 1px 0;
     font-weight: bold;
-    vertical-align: top;
+    vertical-align: middle;
     color: #fff;
     text-align: center;
     letter-spacing: -0.1em;
@@ -177,21 +177,23 @@ table.type07 tbody th {
     width: auto;
     padding: 10px;
     font-weight: bold;
-    vertical-align: top;
+    vertical-align: middle;
     border-bottom: 1px solid #ccc;
     background: #CFF6E8;
     text-align: center;
+    width: 50px;
 }
 
 table.type07 #FV {
     width: auto;
     padding: 10px;
-    vertical-align: top;
+    vertical-align: middle;
     border-bottom: 1px solid #ccc;
     border-right: 1px solid #ccc;
     border-left: 1px solid #ccc;
     text-align: center;
     vertical-align: middle;
+    width: 110px;
 }
 
 
