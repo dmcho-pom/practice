@@ -231,7 +231,7 @@ table.type07 td {
     padding: 40px 20px;
 }
 
-#ft_copy {
+.ft_copy {
     list-style: none;
     display: inline-block;
     border-left: 1px solid #ffffff;
