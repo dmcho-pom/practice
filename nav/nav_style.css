@@ -111,116 +111,24 @@ a {
     padding: 10px 0 10px 0;
 }
 
-
-/*주요 프로그램*/
-
-.h2main_new {
-    color: #1F262D;
-    text-align: center;
-    font-size: 38px;
-    margin: 100px 0 100px 0;
-}
-
-.h2main_new02 span {
-    color: #ffc000;
-}
-
-.center_banner03 .center_container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.center_banner03 .center_program {
-    width: 32%;
-    border: 1px solid #ddd;
-    border-radius: 15px;
-    overflow: hidden;
-}
-
-.center_banner03 .cp01 h2 {
-    background-color: #249798;
-    height: auto;
-    line-height: 72px;
-    color: #fff;
-    text-align: center;
-    font-size: 21px;
-    margin: 0;
-    line-height: normal;
-    padding: 20px 0 20px 0;
-}
-
-.center_banner03 .center_program .cp_wrap {
-    margin: 35px;
-    border-bottom: 1px dotted #ccc;
-    padding-bottom: 40px;
-}
-
-.center_banner03 .cp02 h2 {
-    background-color: #323B6E;
-    height: auto;
-    line-height: 72px;
-    color: #fff;
-    text-align: center;
-    font-size: 21px;
-    margin: 0;
-    line-height: normal;
-    padding: 20px 0 20px 0;
-}
-
-.center_banner03 .center_program .cp_wrap h3 {
-    font-size: 18px;
-    color: #000;
-    padding-bottom: 30px;
-}
-
-.center_banner03 .center_program .cp_wrap li {
-    background: url(../img/li_dot.png)no-repeat 3px center;
-    padding-left: 20px;
-    font-size: 16px;
-}
-
-.center_banner03 .center_program .cp_wrap p {
-    color: #666;
-    font-size: 15px;
-    margin-top: 25px;
-    content: url(/practice/img/P_clock.png)no-repeat 0px center;
-    padding-left: 30px;
-}
-
-
-/*주요 프로그램 끝*/
-
-#maintext2 {
-    display: block;
-    position: relative;
-    margin: 0;
-    padding: 100px 0 0 0;
-}
-
-.maintext3 {
+.maintext {
     position: relative;
     overflow: hidden;
-    background: url(/practice/img/BG1.png)no-repeat center center;
+    background: url(/practice/img/body.png)no-repeat center center;
     width: 100%;
     background-size: cover;
-    padding: 110px 0 130px 0;
+    padding: 50px 0 50px 0;
 }
 
-.h2main_new02 {
+.h2body{
     text-align: center;
-    font-size: 46px;
+    font-size: 40px;
     margin-bottom: 30px;
     color: #fff;
 }
 
-.maintext3 img {
-    position: relative;
-    display: block;
-    margin: auto;
-}
+
+/*footer 시작*/
 
 #ft {
     background: #222;
@@ -240,54 +148,9 @@ a {
     margin-bottom: 35px;
 }
 
-#ft_logo_import {
-    max-width: 1400px;
-    position: relative;
-    margin: 0 auto 40px auto;
-    overflow: hidden;
-}
+/*footer 끝*/
 
-#ft_logo_import .ft_logo_import_container {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#ft_logo_import .ft_logo_import_container li {
-    display: inline-block;
-    width: 32.5%;
-    text-align: center;
-    padding: 30px 0;
-}
-
-#fr_logo_import .ft_logo_import_container li img {}
-
-#ft_logo_import .ft_logo_import_container li:nth-child(1) {
-    border-left: 0px;
-}
-
-#KU_logo {
-    width: 314px;
-    height: 113px;
-}
-#ST_logo {
-    width: 246px;
-    height: 100px;
-}
-#CT_logo{
-    width: 265px;
-    height: 133px;
-}
-
-.maintext {
-    position: relative;
-}
-
-.subtext {
-    position: relative;
-    margin: 0;
-    padding: 0 10% 0 10%;
-}
-
+/*go_up 버튼*/
 .goupbtn {
     content: url(/practice/img/arrow1.png);
     top: 90%;
@@ -305,6 +168,7 @@ a {
     position: fixed;
     z-index: 2;
 }
+/*go_up 버튼 끝*/
 
 
 /* 테이블 값 시작 */
@@ -365,6 +229,14 @@ table.type07 td {
         font-size: 24px;
         margin: 50px 0 50px 0;
     }
+
+    .title_logo {
+        display: block;
+        position: relative;
+        top: 20%;
+        align-items: center;
+        z-index: 2000;
+    }
     .title_logo img {
         display: block;
         position: relative;
@@ -373,7 +245,6 @@ table.type07 td {
         z-index: 2000;
         padding: 10px 0 10px 0;
         margin: auto;
-        left: 35%;
     }
     .hd1 {
         height: 62px;
@@ -386,13 +257,6 @@ table.type07 td {
         border-bottom: 0.5px solid #ddd;
         position: sticky;
         top: 0;
-    }
-    .title_logo {
-        display: block;
-        position: absolute;
-        top: 20%;
-        align-items: center;
-        z-index: 2000;
     }
     .gnb_1da {
         color: #1F262D;
@@ -427,44 +291,5 @@ table.type07 td {
         width: 50px;
         height: 50px;
     }
-    .center_banner03 .center_container {
-        margin: 0 auto;
-        padding: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .center_banner03 .center_program {
-        width: 95%;
-        border: 1px solid #ddd;
-        border-radius: 15px;
-        overflow: hidden;
-        margin-bottom: 10px;
-    }
-    .h2main_new02 {
-        text-align: center;
-        font-size: 18px;
-        margin-bottom: 30px;
-        color: #fff;
-    }
-    .maintext3 img {
-        position: relative;
-        display: block;
-        margin: auto;
-        width: 154.5px;
-    }
-
-    #KU_logo {
-        width: 125.6px;
-        height: 45.2px;
-    }
-    #ST_logo {
-        width: 98.4px;
-        height: 40px;
-    }
-    #CT_logo{
-        width: 110px;
-        height: 53.2px;
-    }
 }
