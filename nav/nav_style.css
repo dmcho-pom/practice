@@ -10,34 +10,21 @@ body {
 .hd_main {
     background: #ffffff;
     width: 100%;
-    height: 124px;
+    height: 123.11px;
     z-index: 1999;
     border-bottom: 0.5px solid #ddd;
     position: sticky;
     top: 0;
 }
 
-.h1 {
-    margin: 0;
-    padding: 10px 0;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    word-spacing: 3px;
-    font-size: 32px;
-    font-weight: 900;
-    text-align: center;
-    width: 100%;
-    vertical-align: center;
-    position: relative;
-}
-
-#logo {
+.title_logo img {
     display: block;
-    position: absolute;
-    width: 97px;
-    height: 38.66px;
-    top: 20%;
-    left: 20%;
+    position: relative;
+    width: 498px;
+    align-items: center;
     z-index: 2000;
+    padding: 10px 0 10px 0;
+    margin: auto;
 }
 
 .hd1 {
@@ -124,13 +111,124 @@ a {
     padding: 10px 0 10px 0;
 }
 
+
+/*주요 프로그램*/
+
+.h2main_new {
+    color: #1F262D;
+    text-align: center;
+    font-size: 38px;
+    margin: 100px 0 100px 0;
+}
+
+.h2main_new02 span {
+    color: #ffc000;
+}
+
+.center_banner03 .center_container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.center_banner03 .center_program {
+    width: 32%;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.center_banner03 .cp01 h2 {
+    background-color: #249798;
+    height: auto;
+    line-height: 72px;
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    margin: 0;
+    line-height: normal;
+    padding: 20px 0 20px 0;
+}
+
+.center_banner03 .center_program .cp_wrap {
+    margin: 35px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 40px;
+}
+
+.center_banner03 .cp02 h2 {
+    background-color: #323B6E;
+    height: auto;
+    line-height: 72px;
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    margin: 0;
+    line-height: normal;
+    padding: 20px 0 20px 0;
+}
+
+.center_banner03 .center_program .cp_wrap h3 {
+    font-size: 18px;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.center_banner03 .center_program .cp_wrap li {
+    background: url(../img/li_dot.png)no-repeat 3px center;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.center_banner03 .center_program .cp_wrap p {
+    color: #666;
+    font-size: 15px;
+    margin-top: 25px;
+    content: url(/practice/img/P_clock.png)no-repeat 0px center;
+    padding-left: 30px;
+}
+
+
+/*주요 프로그램 끝*/
+
+#maintext2 {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 100px 0 0 0;
+}
+
+.maintext3 {
+    position: relative;
+    overflow: hidden;
+    background: url(/practice/img/BG1.png)no-repeat center center;
+    width: 100%;
+    background-size: cover;
+    padding: 110px 0 130px 0;
+}
+
+.h2main_new02 {
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.maintext3 img {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
 #ft {
     background: #222;
 }
 
 .ft_wr {
     background: #1f262d;
-    color: #555;
+    color: #ffffff;
     text-align: center;
     padding: 40px 20px;
 }
@@ -138,8 +236,46 @@ a {
 #ft_copy {
     list-style: none;
     display: inline-block;
-    border-left: 1px solid #555;
+    border-left: 1px solid #ffffff;
     margin-bottom: 35px;
+}
+
+#ft_logo_import {
+    max-width: 1400px;
+    position: relative;
+    margin: 0 auto 40px auto;
+    overflow: hidden;
+}
+
+#ft_logo_import .ft_logo_import_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ft_logo_import .ft_logo_import_container li {
+    display: inline-block;
+    width: 32.5%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#fr_logo_import .ft_logo_import_container li img {}
+
+#ft_logo_import .ft_logo_import_container li:nth-child(1) {
+    border-left: 0px;
+}
+
+#KU_logo {
+    width: 314px;
+    height: 113px;
+}
+#ST_logo {
+    width: 246px;
+    height: 100px;
+}
+#CT_logo{
+    width: 265px;
+    height: 133px;
 }
 
 .maintext {
@@ -223,8 +359,24 @@ table.type07 td {
 /* 테이블 값 끝 */
 
 @media (max-width:800px) {
-    .h1 {
-        font-size: 16px;
+    .h2main_new {
+        color: #1F262D;
+        text-align: center;
+        font-size: 24px;
+        margin: 50px 0 50px 0;
+    }
+    .title_logo img {
+        display: block;
+        position: relative;
+        width: 300px;
+        align-items: center;
+        z-index: 2000;
+        padding: 10px 0 10px 0;
+        margin: auto;
+        left: 35%;
+    }
+    .hd1 {
+        height: 62px;
     }
     .hd_main {
         background: #ffffff;
@@ -235,13 +387,11 @@ table.type07 td {
         position: sticky;
         top: 0;
     }
-    #logo {
+    .title_logo {
         display: block;
         position: absolute;
-        width: 48.5px;
-        height: 19.33px;
         top: 20%;
-        left: 10%;
+        align-items: center;
         z-index: 2000;
     }
     .gnb_1da {
@@ -276,5 +426,45 @@ table.type07 td {
         z-index: 2;
         width: 50px;
         height: 50px;
+    }
+    .center_banner03 .center_container {
+        margin: 0 auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .center_banner03 .center_program {
+        width: 95%;
+        border: 1px solid #ddd;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    .h2main_new02 {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+    .maintext3 img {
+        position: relative;
+        display: block;
+        margin: auto;
+        width: 154.5px;
+    }
+
+    #KU_logo {
+        width: 125.6px;
+        height: 45.2px;
+    }
+    #ST_logo {
+        width: 98.4px;
+        height: 40px;
+    }
+    #CT_logo{
+        width: 110px;
+        height: 53.2px;
     }
 }
