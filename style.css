@@ -177,7 +177,6 @@ a {
 }
 
 .center_banner03 .center_program .cp_wrap li {
-    background: url(../img/li_dot.png)no-repeat 3px center;
     padding-left: 20px;
     font-size: 16px;
 }
@@ -186,6 +185,7 @@ a {
     color: #666;
     font-size: 15px;
     margin-top: 25px;
+    content: url(/practice/img/P_clock.png)no-repeat 0px center;
     padding-left: 30px;
 }
 
@@ -202,7 +202,7 @@ a {
 .maintext3 {
     position: relative;
     overflow: hidden;
-    content: url(/practice/img/BG1.png)no-repeat center center;
+    background: url(/practice/img/BG1.png)no-repeat center center;
     width: 100%;
     background-size: cover;
     padding: 110px 0 130px 0;
