@@ -127,6 +127,12 @@ a {
     color: #fff;
 }
 
+.subtext {
+    position: relative;
+    margin: 0;
+    padding: 0 10% 0 10%;
+}
+
 .cube{
     width: 32px;
     height: 31px;
@@ -153,7 +159,7 @@ table.type07 thead {
 }
 
 table.type07 thead th {
-    padding: 15px 0;
+    padding: 1px 0;
     font-weight: bold;
     vertical-align: top;
     color: #fff;
