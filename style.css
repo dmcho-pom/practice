@@ -346,6 +346,15 @@ table.type07 td {
 /* 테이블 값 끝 */
 
 @media (max-width:800px) {
+    .title_logo img {
+        display: block;
+        position: relative;
+        width: 498px;
+        align-items: center;
+        z-index: 2000;
+        padding: 10px 0 10px 0;
+        margin: auto;
+    }
     .hd_main {
         background: #ffffff;
         width: 100%;
@@ -400,5 +409,6 @@ table.type07 td {
         padding: 0px;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
