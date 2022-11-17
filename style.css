@@ -265,6 +265,19 @@ a {
     border-left: 0px;
 }
 
+#KU_logo {
+    width: 314px;
+    height: 113px;
+}
+#ST_logo {
+    width: 246px;
+    height: 100px;
+}
+#CT_logo{
+    width: 265px;
+    height: 133px;
+}
+
 .maintext {
     position: relative;
 }
