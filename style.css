@@ -374,6 +374,9 @@ table.type07 td {
         padding: 10px 0 10px 0;
         margin: auto;
     }
+    .hd1 {
+        height: 62px;
+    }
     .hd_main {
         background: #ffffff;
         width: 100%;
