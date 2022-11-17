@@ -182,6 +182,18 @@ table.type07 tbody th {
     text-align: center;
 }
 
+table.type07 #FV {
+    width: auto;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-align: middle;
+    vertical-align: middle;
+}
+
+
 table.type07 td {
     width: auto;
     padding: 10px;
