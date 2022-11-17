@@ -127,6 +127,10 @@ a {
     color: #fff;
 }
 
+#h2_subtext {
+    text-align: center;
+}
+
 .subtext {
     position: relative;
     margin: 0;
