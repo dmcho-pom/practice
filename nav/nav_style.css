@@ -190,6 +190,7 @@ table.type07 td {
     border-right: 1px solid #ccc;
     border-left: 1px solid #ccc;
     text-align: left;
+    vertical-align: middle;
 }
 
 
@@ -319,26 +320,7 @@ table.type07 td {
     }
     
     #h2_maintext{
-        text-align: center;
         font-size: 20px;
-        margin-bottom: 30px;
-        color: #fff;
-    }
-    
-    #h2_subtext {
-        position: relative;
-        text-align: center;
-    }
-    
-    .subtext {
-        position: relative;
-        margin: 0;
-        padding: 0 10% 0 10%;
-    }
-    
-    .cube{
-        width: 16px;
-        height: 15.5px;
     }
 
 }
