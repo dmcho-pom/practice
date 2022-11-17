@@ -186,7 +186,6 @@ a {
     color: #666;
     font-size: 15px;
     margin-top: 25px;
-    content: url(/practice/img/P_clock.png)no-repeat 0px center;
     padding-left: 30px;
 }
 
@@ -203,7 +202,7 @@ a {
 .maintext3 {
     position: relative;
     overflow: hidden;
-    background: url(/practice/img/BG1.png)no-repeat center center;
+    content: url(/practice/img/BG1.png)no-repeat center center;
     width: 100%;
     background-size: cover;
     padding: 110px 0 130px 0;
@@ -282,11 +281,7 @@ a {
     position: relative;
 }
 
-.subtext {
-    position: relative;
-    margin: 0;
-    padding: 0 10% 0 10%;
-}
+
 
 .goupbtn {
     content: url(/practice/img/arrow1.png);
