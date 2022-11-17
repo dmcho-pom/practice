@@ -450,4 +450,17 @@ table.type07 td {
         margin: auto;
         width: 154.5px;
     }
+
+    #KU_logo {
+        width: 157px;
+        height: 56.5px;
+    }
+    #ST_logo {
+        width: 123px;
+        height: 50px;
+    }
+    #CT_logo{
+        width: 137.5px;
+        height: 66.5px;
+    }
 }
