@@ -411,4 +411,12 @@ table.type07 td {
         flex-direction: column;
         align-items: center;
     }
+
+    .center_banner03 .center_program {
+        width: 95px;%;
+        border: 1px solid #ddd;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
 }
