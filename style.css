@@ -346,6 +346,12 @@ table.type07 td {
 /* 테이블 값 끝 */
 
 @media (max-width:800px) {
+    .h2main_new {
+        color: #1F262D;
+        text-align: center;
+        font-size: 24px;
+        margin: 50px 0 50px 0;
+    }
     .title_logo img {
         display: block;
         position: relative;
