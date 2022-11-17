@@ -164,8 +164,17 @@ table.type07 thead {
     background: #1D9898;
 }
 
-table.type07 thead th {
+table.type07 thead #TL {
     padding: 1px 0;
+    font-weight: bold;
+    vertical-align: middle;
+    color: #fff;
+    text-align: center;
+    letter-spacing: -0.1em;
+}
+
+table.type07 thead th {
+    padding: 10px 0;
     font-weight: bold;
     vertical-align: middle;
     color: #fff;
