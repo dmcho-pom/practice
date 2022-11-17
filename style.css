@@ -121,13 +121,6 @@ a {
     margin: 100px 0 100px 0;
 }
 
-.h2main_new02 {
-    text-align: center;
-    font-size: 46px;
-    margin-bottom: 30px;
-    color: #fff;
-}
-
 .h2main_new02 span {
     color: #ffc000;
 }
@@ -214,6 +207,13 @@ a {
     width: 100%;
     background-size: cover;
     padding: 110px 0 130px 0;
+}
+
+.h2main_new02 {
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 30px;
+    color: #fff;
 }
 
 .maintext3 img {
@@ -418,5 +418,17 @@ table.type07 td {
         border-radius: 15px;
         overflow: hidden;
         margin-bottom: 10px;
+    }
+    .h2main_new02 {
+        text-align: center;
+        font-size: 23px;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+    .maintext3 img {
+        position: relative;
+        display: block;
+        margin: auto;
+        width: 154.5px;
     }
 }
