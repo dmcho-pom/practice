@@ -181,7 +181,6 @@ table.type07 tbody th {
     border-bottom: 1px solid #ccc;
     background: #CFF6E8;
     text-align: center;
-    width: 61px;
 }
 
 table.type07 #FV {
@@ -193,7 +192,6 @@ table.type07 #FV {
     border-left: 1px solid #ccc;
     text-align: center;
     vertical-align: middle;
-    width: 110px;
 }
 
 
@@ -342,6 +340,14 @@ table.type07 td {
         position: relative;
         text-align: center;
         padding: 50px 0 25px 0;
+    }
+
+    table.type07 tbody th {
+        width: 61px;
+    }
+    
+    table.type07 #FV {
+        width: 110px;
     }
 
 }
